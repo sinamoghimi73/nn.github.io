@@ -8,14 +8,12 @@ bookdown::gitbook:
         <li><a href="https://github.com/sinamoghimi73" target="blank">Sina Moghimi</a></li>
     edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
     download: ["pdf", "epub"]
----
-output:
+  output:
   html_document:
-    theme: flatly
-    highlight: tango
-    toc: true
-    toc_float: true
----
+    includes:
+      in_header: hero.html
+      
+    
 # bookdown::pdf_book:
 #   includes:
 #     in_header: preamble.tex
